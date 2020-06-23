@@ -1,0 +1,22 @@
+{
+  "name": "awesome-architecture",
+  "version": "1.0.0",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  },
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "vuepress": "^1.5.1",
+    "vuepress-plugin-auto-sidebar": "^1.4.1"
+  },
+  "keywords": [],
+  "author": "indasoo",
+  "license": "ISC",
+  "description": ""
+}
